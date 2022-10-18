@@ -155,6 +155,11 @@ header img {
   
   /* ACA EMPIEZAN LOS ESTILOS DE SERVICIOS--------------------------------------------*/
 
+.servicios {
+    background-color: white;
+    height: 90vh;
+  }
+
   .container1 {
     width: 1000px;
     position: relative;
@@ -286,6 +291,10 @@ i {
 /* ------ ACA EMPIEZAN LOS CLIENTES ------- */
 
 
+.clientes {
+  background-color: white;
+  height: 85vh;
+}
 
 .container4 {
     position: relative;
@@ -336,7 +345,7 @@ i {
     padding: 1.5rem;
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: rgb(217, 255, 250);
     z-index: 1;
     align-items: flex-end;
     text-align: center;
@@ -359,6 +368,11 @@ i {
     letter-spacing: 2px;
   }
   
+.contacto {
+  height: 70vh;
+}
+
+
 /*--------------FOOTER-------------*/
 
 footer{
