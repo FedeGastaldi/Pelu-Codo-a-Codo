@@ -435,6 +435,43 @@ footer{
     word-spacing: 2px;
 }
 
+/*------CONTACTO --------*/
+.contacto{
+  display: inline;
+  text-align: center;
+}
+
+input{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 270px;
+  height: 30px;
+  border: 0;
+}
+
+textarea{
+  border-radius: 10px;
+  width: 270px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+}
+
+.enviar{
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: #545d7a;
+  border: 0;
+}
+
+.enviar:hover{
+  background-color: coral;
+  transition: 0.2s;
+}
+
   @media (max-width: 600px) {
     .container4 .box:hover .content {
       transform: translate(0, 3.5rem);
