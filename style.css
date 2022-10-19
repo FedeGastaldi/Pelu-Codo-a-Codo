@@ -82,7 +82,14 @@ header img {
   }
 
   /* ---------------- ACA EMPIEZAN LOS ESTILOS DE PRODUCTOS --------------------- */
-  
+   
+
+  .productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
     .container {
     display: flex;
     width: 1040px;
@@ -158,6 +165,11 @@ header img {
 .servicios {
     background-color: white;
     height: 90vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .container1 {
@@ -237,16 +249,16 @@ i {
     transform: translateY(0px);
 }
 
-.container1 .card1 .face.face1 .content {
+.container1 .card1 .face.face1 .content1 {
     opacity: 1;
     transition: 0.5s;
 }
 
-.container1 .card1:hover .face.face1 .content {
+.container1 .card1:hover .face.face1 .content1 {
     opacity: 1;
 }
 
-.container1 .card1 .face.face1 .content i{
+.container1 .card1 .face.face1 .content1 i{
     max-width: 100px;
 }
 
@@ -266,14 +278,14 @@ i {
     transform: translateY(0);
 }
 
-.container1 .card1 .face.face2 .content p {
+.container1 .card1 .face.face2 .content1 p {
     margin: 0;
     padding: 0;
     text-align: center;
     color: #414141;
 }
 
-.container1 .card1 .face.face2 .content h3 {
+.container1 .card1 .face.face2 .content1 h3 {
     margin: 0 0 10px 0;
     padding: 0;
     color: #fff;
